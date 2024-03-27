@@ -1,0 +1,7 @@
+ipykernel
+ipywidgets
+langchain==0.1.13
+langchain-openai==0.1.1
+pymupdf==1.24.0
+sentence-transformers==2.6.1
+streamlit==1.32.2

@@ -1,0 +1,26 @@
+{
+    "host": "0.0.0.0",
+    "port": 9999,
+    "models": [
+        {
+            "model": "/workspace/llms/mistral-7b-instruct-v0.1.Q4_K_M.gguf",
+            "chat_format": "chatml",
+            "model_alias": "mistral",
+            "n_gpu_layers": -1,
+            "offload_kqv": true,
+            "n_threads": 12,
+            "n_batch": 512,
+            "n_ctx": 2048
+        },
+        {
+            "model": "/workspace/llms/mistral-7b-instruct-v0.1.Q4_K_M.gguf",
+            "chat_format": "functionary",
+            "model_alias": "mistral-function-calling",
+            "n_gpu_layers": -1,
+            "offload_kqv": true,
+            "n_threads": 12,
+            "n_batch": 512,
+            "n_ctx": 2048
+        }
+    ]
+}
